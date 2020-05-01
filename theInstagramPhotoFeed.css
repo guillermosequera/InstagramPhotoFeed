@@ -1,0 +1,68 @@
+body{
+    background: rgb(155, 153, 153, 8);
+}
+a.navbar-brand{
+    margin-left: auto;
+}
+a.nav-link{
+    font-family: 'Rochester', cursive;              /**tipos de letra y tamaño para el titulo "instagram" en nuestro navbar**/
+    font-size: larger;
+}
+div.container{
+    margin-left: 6%;
+    width: 800px;
+    margin: auto;
+}
+.post{
+    margin: 0;
+    text-align: center;
+    background: white;       
+}
+.Top{
+    display: block;
+}
+.Top h3{
+    float: right;
+    padding-right: 20px;
+    color: rgb(155, 153, 153, 8)
+}
+.Top h2{
+    float:left;
+    padding-left: 20px;
+}
+.post .img img{
+    width:100%;
+}
+.post .footer{
+    padding: 20px;
+}
+.button {
+    width: auto;
+    text-align: center;
+    margin-left: -6%;
+}
+#buttons {
+    background: #f5f5f5be;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.dropdown-menu :hover {                         /**resaltamos la opcion que el mouse recorre en nuestro submenu "dropdown" representado por un icono de "Herramienta" al lado del boton "newpost"**/
+    background: rgb(64, 64, 184);
+}
+.multi-post{
+    background: grey;
+    border-radius: 12px;
+    margin-right: 1px;
+}
+.a-post{
+    background: grey;
+    border-radius: 12px;
+}
+.multi-post :focus {                                        /**aca se administran los botones para intercambiar vistas en la web de "mosaico" a "tipo cascada"**/
+    background-color:#f5f5f5be;
+    border-radius: 12px;
+}
+.a-post :focus {
+    background-color: #f5f5f5be;
+    border-radius: 12px;
+}
